@@ -1,0 +1,48 @@
+* {
+  font-family: fantasy;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar > h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 1px 0px 7px #000000;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 30px;
+  text-align: center;
+}
+
+.cardCountries {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px -1px 8px 1px #676363;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+}
+
+img {
+  width: 100px;
+}
+
+img:hover {
+  width: 31.5%;
+  height: 40%;
+  transition: all 0.9s;
+  position: absolute;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
